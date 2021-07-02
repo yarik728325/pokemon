@@ -1,0 +1,19 @@
+.pages {
+    position: fixed;
+    top:  50px;
+    .page, .current-page{
+      border: 1px solid lightgray;
+      border-radius: 100%;
+      padding: 5px 10px;
+      margin: 0 10px;
+      cursor: pointer;
+      background: black;
+      color:  white;
+    }
+    .current-page {
+      border: 2px solid gray;
+      
+      background: white;
+      color: black;
+    }
+  }

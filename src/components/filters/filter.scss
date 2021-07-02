@@ -1,0 +1,16 @@
+.my{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    top: 60px;
+    right: 300px;
+    position: fixed;
+    .li, .active{
+        width: 100px;
+        height: 50px;
+
+    }:hover{
+        cursor: pointer;
+    }
+    
+}

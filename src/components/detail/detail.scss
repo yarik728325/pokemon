@@ -1,0 +1,15 @@
+.Modal{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 600px;
+    transform: translateX(-50%);
+    .size{
+        width: 125px;
+        height: 200px;
+       
+    }
+    .wrapper{
+        padding-left: 50px;
+    }
+}
