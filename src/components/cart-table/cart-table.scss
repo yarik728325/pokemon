@@ -8,3 +8,16 @@
 .Left{
     margin: 40px;
 }
+@media screen and (max-width: 1320px) {
+   .wrapper{
+       width: 80%;
+       margin-left: 10%;
+   }
+    
+}
+@media screen and (max-width: 1054px) {
+    .wrapper{
+        width: 50%;
+    }
+     
+ }

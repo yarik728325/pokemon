@@ -38,8 +38,13 @@ class CartTable extends Component {
         if(this.props.show){
             return <Details/>
         }
-        
         const {tmp,filters} = this.props.menu;
+        const {showfilter} = this.props;
+        if(showfilter){
+            return(
+                <div></div>
+            )
+        }
         return(
             <>
                <div className = "wrapper">
@@ -60,6 +65,9 @@ class CartTable extends Component {
                                      break
                                  }
                              };
+                             if(filters.length == 0){
+                                 bool = true;
+                             }
                              
                              const {name} = value;
                              const {front_default} = value.sprites;
@@ -93,7 +101,8 @@ const FromReducerToState = (state)=>{
         error:state.error,
         detail : state.detail,
         show:state.show,
-        filters:state.filters
+        filters:state.filters,
+        showfilter:state.showfilter
     }
 }
 const FromServiceToActions = {

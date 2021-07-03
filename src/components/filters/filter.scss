@@ -2,9 +2,7 @@
     width: 240px;
     display: flex;
     justify-content: space-between;
-    top: 60px;
-    right: 300px;
-    position: fixed;
+   
     .li, .active{
         width: 100px;
         height: 50px;
@@ -13,4 +11,9 @@
         cursor: pointer;
     }
     
+}
+.fix{
+    top: 100px;
+    right: 100px;
+    position: fixed;
 }

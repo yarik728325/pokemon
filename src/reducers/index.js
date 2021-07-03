@@ -30,7 +30,8 @@ const tmp ={
     ghost:false,
     steel:false,
     fire:false,
-    filters: []
+    filters: [],
+    showfilter:false
 
 },
 reducer = (state= tmp,actions)=>{
@@ -46,6 +47,11 @@ reducer = (state= tmp,actions)=>{
                 loading:false,
                 error:false,
                 totalCount :actions.menu.count
+            }
+        case  "ShowFilter":
+            return{
+                ...state,
+                showfilter:!state.showfilter
             }
         case "Loading":
             return{

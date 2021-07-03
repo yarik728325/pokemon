@@ -51,8 +51,14 @@ const Filters = (e)=>{
       e
   }
 }
+const ShowFilter = ()=>{
+    return{
+        type:"ShowFilter"
+    }
+}
 export{
     Filters,
+    ShowFilter,
     PerPage,
     ShowDetail,
     Detail,
