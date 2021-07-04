@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     width: 1220px;
     margin-top: 20px;
-    margin-top: 45px;
+    margin-top: 100px;
 }
 .Left{
     margin: 40px;
@@ -20,4 +20,15 @@
         width: 50%;
     }
      
+ }
+ @media screen and (max-width: 396px) {
+    
+    .wrapper{
+        max-width: 90%;
+        
+    }
+    .card{
+        min-width: 100%;
+        max-width: 90%;
+    }
  }

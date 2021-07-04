@@ -17,3 +17,15 @@
       color: black;
     }
   }
+  @media screen and (max-width: 528px) {
+    .pages .page, .pages .current-page {
+      border: 1px solid lightgray;
+      border-radius: 100%;
+      padding: 0px 4px;
+      margin: 0 5px;
+      cursor: pointer;
+      background: black;
+      color: white;
+  }
+
+ }

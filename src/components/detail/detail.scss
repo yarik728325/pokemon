@@ -13,3 +13,15 @@
         padding-left: 50px;
     }
 }
+@media screen and (max-width: 626px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+     .list-group-item{
+         width: 90%;
+     }
+     .Modal{
+         width: 90%;
+     }
+ }

@@ -16,4 +16,16 @@
     top: 100px;
     right: 100px;
     position: fixed;
+    z-index: 2;
+}
+@media screen and (max-width: 528px) {
+    .fix{
+        left: 10%;
+    }
+    .my{
+        justify-content: flex-start;
+    }
+    .my .li, .my .active {
+        height: 40px;
+    }
 }
